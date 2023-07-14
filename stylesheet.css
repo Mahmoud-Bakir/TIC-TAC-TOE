@@ -78,6 +78,7 @@ label{
     align-items: center;   
     cursor: pointer;
     gap: 20px;
+    background-color: rgb(159, 157, 157);
 }
 .submission{
     display: flex;
@@ -113,5 +114,18 @@ label{
     background-position: center;
 }
 .col_Y{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0.5rem;
+    justify-content: center;
+    align-items: center;   
+    cursor: pointer;
+    gap: 20px;
+    background-image: url(assets/letter_o.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     
 }
