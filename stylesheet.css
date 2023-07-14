@@ -48,3 +48,26 @@ label{
     font-family: monospace;
     font-size: larger;
 }
+
+.playground{
+    display: flex;
+    flex-direction: column ;
+    justify-content: f;
+    margin: 10% 25%;
+    color: white;
+    gap: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10;
+    padding: 2rem;
+    border: 0.5px dotted #f9f9f9;
+}
+.col{
+  
+    border: 1px solid #f9f9f9;
+    padding: 2rem;
+}
