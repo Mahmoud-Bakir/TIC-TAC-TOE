@@ -20,11 +20,19 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    border: 2px solid rgb(140, 0, 255);
+    border-radius: 10px;
+    align-items: center;
+    padding: 0.7rem 0.5rem;
 }
 .player_two_form{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
+    padding: 0.7rem 0.5rem;
+    border: 2px solid rgb(200, 255, 0);
+    border-radius: 10px;
 }
 input{
     border-radius: 50px;
@@ -37,4 +45,6 @@ input::placeholder{
 }
 label{
     color: #f9f9f9;
+    font-family: monospace;
+    font-size: larger;
 }
