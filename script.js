@@ -15,6 +15,10 @@ window.onload=function(){
     let winner=document.getElementById("winner")
     let first=false;
     let second=false;
+    let score_1=document.getElementById("player_one_score")
+    let score_2=document.getElementById("player_two_score")
+    let s1=0
+    let s2=0
     let x=[10,11,12,13,14,15,16,17,18]
     let y=[10,11,12,13,14,15,16,17,18]
     console.log(col1_1);
@@ -33,6 +37,8 @@ window.onload=function(){
         count=2
         x=[10,11,12,13,14,15,16,17,18]
         y=[10,11,12,13,14,15,16,17,18]
+        console.log(score_1)
+    console.log(score_2)
 
     }
     
@@ -64,6 +70,9 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
+                        console.log("test")
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -81,6 +90,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -102,6 +113,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -120,6 +133,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -140,6 +155,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -158,6 +175,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -178,6 +197,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -196,6 +217,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -216,6 +239,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -234,6 +259,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -254,6 +281,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -272,6 +301,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -292,6 +323,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -310,6 +343,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -330,6 +365,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                        s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -348,6 +385,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -368,6 +407,8 @@ window.onload=function(){
                         winner.innerText=`${player_1.value} Won!`
                         winner.setAttribute("class","winner-show-1")
                         replay.setAttribute("class","btn-replay-show")
+                         s1 ++
+                        score_1.innerText = `Score: ${s1}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
@@ -386,6 +427,8 @@ window.onload=function(){
                         winner.innerText=`${player_2.value} Won!`
                         winner.setAttribute("class","winner-show-2")
                         replay.setAttribute("class","btn-replay-show")
+                        s2++
+                        score_2.innerText=`score:${s2}`
                         replay.addEventListener("click",function(){
                             replay.setAttribute("class","btn-replay")
                             winner.setAttribute("class","winner-hide")
