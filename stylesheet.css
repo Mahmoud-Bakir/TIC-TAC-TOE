@@ -98,6 +98,13 @@ label{
     border-radius: 10px;
     cursor: pointer;
 }
+.btn-play{
+    background-color:rgb(249, 255, 229);
+    font-family: monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: xx-large;
+}
 .col_X{
     display: flex;
     flex-direction: column;
