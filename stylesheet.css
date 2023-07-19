@@ -105,6 +105,25 @@ label{
     cursor: pointer;
     font-size: xx-large;
 }
+.btn-replay{
+    background-color:rgb(249, 255, 229);
+    font-family: monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: xx-large;
+    display: none;
+}
+.winner-hide{
+    display: none;
+
+}
+.winner-show-1{
+    color: rgb(140, 0, 255);
+}
+.winner-show-2{
+    color: rgb(200, 255, 0);
+}
+
 .col_X{
     display: flex;
     flex-direction: column;
