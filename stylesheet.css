@@ -106,12 +106,15 @@ label{
     font-size: xx-large;
 }
 .btn-replay{
+    display: none;
+}
+
+.btn-replay-show{
     background-color:rgb(249, 255, 229);
     font-family: monospace;
     border-radius: 10px;
     cursor: pointer;
     font-size: xx-large;
-    display: none;
 }
 .winner-hide{
     display: none;
